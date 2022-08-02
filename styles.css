@@ -23,7 +23,352 @@
     filter: brightness(60%);
     
 }
-@media screen and (min-width: 1106px){
+@media (min-width: 300) and (max-width: 481){
+    .container_barra{
+        position:fixed;
+        box-shadow: 2px 2px gray;
+        width: 100em;
+        height: 400px;
+        top: 0;
+        left: 0;
+        border: 2px solid black;
+      
+    }
+    
+    .nav_barra{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .ul_barra{
+        text-align: center;
+        display: flex;
+        z-index: 2;
+        width: 90%;
+        gap: 2;
+        list-style: none;
+        margin: 4%; 
+        flex-wrap: wrap;
+        flex-basis: 0;
+        flex-grow: 999;
+        font-size: large;
+       
+    }
+    #TURING-IA{
+       right: 1em;
+        font-weight: 400rem;
+        font-size: larger;
+        
+          
+    }
+    .nav_barra>ul>li>a{
+        color: white;
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+        
+    
+    }
+    .nav_barra>ul>li>a:hover{
+        color:rgba(4, 0, 255, 0.8);
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+    
+    }
+    .servicios>li>a,.tableau>li>a,.servicios,.tableau{
+        list-style: none;
+        color: white;
+        z-index: 50;    
+        transition: all 300ms ease;
+    }
+    
+    #bienvenido{
+        position: relative;
+        bottom: 230px;
+        left: 50px;
+        color: white;
+        font-size:80% ;
+        z-index: 2;
+        width: 25%;
+        font-weight: 800;
+        
+    }
+    #bienvenido>h1{
+        font-size: 450%;
+    }
+    #bienvenido>h2{
+        font-size: 240%;
+        
+    }
+    
+    .servicios,.tableau{
+        visibility: hidden;
+        text-align: left;
+        }
+    .ul_barra>li:hover>.servicios,.ul_barra>li:hover>.tableau{
+        visibility: visible;
+        color: aqua;
+    }
+    .servicios>li>a:hover,.tableau>li>a:hover{
+        background-color: rgba(4, 0, 255, 0.5);
+        display: block;
+        transform: scale(1.2);
+    }
+    #container_iconos_contacto{
+        position: fixed;
+        width: fit-content;
+        top: 65px;
+        right: 55px;
+        z-index: 2;
+    }
+    .iconos_contacto>li{
+        list-style: none;
+        display: inline-flex;
+    }
+    svg{
+        fill: white;
+    }
+    svg:hover{
+        fill: rgba(4, 0, 255, 0.8);
+        display: block;
+        transform: scale(1.8);
+    }
+    
+
+}
+@media (min-width: 482px) and (max-width: 767px){
+
+    .container_barra{
+        position:fixed;
+        box-shadow: 2px 2px gray;
+        width: 50em;
+        height: 17em;
+        top: 0;
+        left: 0;
+        border: 2px solid black;
+      
+    }
+    
+    .nav_barra{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .ul_barra{
+        text-align: center;
+        display: flex;
+        z-index: 2;
+        width: 90%;
+        gap: 2;
+        list-style: none;
+        margin: 4%; 
+        flex-wrap: wrap;
+        flex-basis: 0;
+        flex-grow: 999;
+        font-size: large;
+        font-size: .7rem;
+       
+    }
+    #TURING-IA{
+       right: 1em;
+        font-weight: 100rem;
+        font-size: larger;
+        
+          
+    }
+    .nav_barra>ul>li>a{
+        color: white;
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+        
+    
+    }
+    .nav_barra>ul>li>a:hover{
+        color:rgba(4, 0, 255, 0.8);
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+    
+    }
+    .servicios>li>a,.tableau>li>a,.servicios,.tableau{
+        list-style: none;
+        color: white;
+        z-index: 50;    
+        transition: all 300ms ease;
+    }
+    
+    #bienvenido{
+        position: relative;
+        bottom: 12em;
+        left: 2em;
+        color: white;
+        font-size:100% ;
+        z-index: 2;
+        width: 25%;
+        font-weight: 800;
+        
+    }
+    #bienvenido>h1{
+        font-size: 150%;
+    }
+    #bienvenido>h2{
+        font-size: 140%;
+        
+    }
+    
+    .servicios,.tableau{
+        visibility: hidden;
+        text-align: left;
+        }
+    .ul_barra>li:hover>.servicios,.ul_barra>li:hover>.tableau{
+        visibility: visible;
+        color: aqua;
+    }
+    .servicios>li>a:hover,.tableau>li>a:hover{
+        background-color: rgba(4, 0, 255, 0.5);
+        display: block;
+        transform: scale(1.2);
+    }
+    #container_iconos_contacto{
+        position: fixed;
+        width:4rem;
+        height: 4%;
+        top: 45px;
+        right: 45px;
+        z-index: 2;
+        ;
+    }
+    .iconos_contacto>li{
+        list-style: none;
+        display: inline-flex;
+    }
+    svg{
+        fill: white;
+    }
+    svg:hover{
+        fill: rgba(4, 0, 255, 0.8);
+        display: block;
+        transform: scale(1.8);
+    }
+    
+
+
+  }
+  
+@media (min-width: 768px) and (max-width: 1024px){
+    
+    .container_barra{
+        position:fixed;
+        box-shadow: 2px 2px gray;
+        width: 100em;
+        height: fit-content;
+        top: 0;
+        left: 0;
+        border: 2px solid black;
+      
+    }
+    
+    .nav_barra{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .ul_barra{
+        justify-content:space-between;
+        display: flex;
+        z-index: 2;
+        width: 90%;
+        list-style: none;
+        margin: 4%; 
+        flex-wrap: wrap;
+        flex-basis: 0;
+        flex-grow: 999;
+        font-size: large;
+       
+    }
+    #TURING-IA{
+        font-weight: 600rem;
+        font-size: x-large;
+        
+          
+    }
+    .nav_barra>ul>li>a{
+        color: white;
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+    
+    }
+    .nav_barra>ul>li>a:hover{
+        color:rgba(4, 0, 255, 0.8);
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+    
+    }
+    .servicios>li>a,.tableau>li>a,.servicios,.tableau{
+        list-style: none;
+        color: white;
+        z-index: 50;    
+        transition: all 300ms ease;
+    }
+    
+    #bienvenido{
+        position: relative;
+        bottom: 140px;
+        left: 30px;
+        color: white;
+        font-size:70% ;
+        z-index: 2;
+        width: 25%;
+        font-weight: 800;
+        
+    }
+    #bienvenido>h1{
+        font-size: 450%;
+    }
+    #bienvenido>h2{
+        font-size: 240%;
+        
+    }
+    #container_iconos_contacto{
+        position: fixed;
+        width: fit-content;
+        top: 82px;
+        right: 65px;
+        z-index: 2;
+    }
+    .iconos_contacto>li{
+        list-style: none;
+        display: inline-flex;
+    }
+    .servicios,.tableau{
+        visibility: hidden;
+        }
+    .ul_barra>li:hover>.servicios,.ul_barra>li:hover>.tableau{
+        visibility: visible;
+        color: aqua;
+    }
+    .servicios>li>a:hover,.tableau>li>a:hover{
+        background-color: rgba(4, 0, 255, 0.5);
+        display: block;
+        transform: scale(1.2);
+    }
+    svg{
+        fill: white;
+    }
+    svg:hover{
+        fill: rgba(4, 0, 255, 0.8);
+        display: block;
+        transform: scale(1.8);
+    }
+    
+  }
+
+  
+@media (min-width: 1025px) and (max-width: 1380px){
 .container_barra{
     position:fixed;
     box-shadow: 2px 2px gray;
@@ -67,7 +412,7 @@
 
 }
 .nav_barra>ul>li>a:hover{
-    color:rgba(233, 128, 0, 0.8);
+    color:rgba(4, 0, 255, 0.8);
     font-size: larger;
     font-weight: 800;
     transition: all 300ms ease;
@@ -89,9 +434,13 @@
     z-index: 2;
     width: 25%;
     font-weight: 800;
+    
 }
 #bienvenido>h1{
     font-size: 450%;
+}
+#bienvenido>h2{
+    font-size: 240%;
     
 }
 #container_iconos_contacto{
@@ -113,7 +462,7 @@
     color: aqua;
 }
 .servicios>li>a:hover,.tableau>li>a:hover{
-    background-color: brown;
+    background-color: rgba(4, 0, 255, 0.5);
     display: block;
     transform: scale(1.2);
 }
@@ -121,34 +470,10 @@ svg{
     fill: white;
 }
 svg:hover{
-    fill: brown;
+    fill: rgba(4, 0, 255, 0.8);
     display: block;
     transform: scale(1.8);
 }
 }
-@media screen and (max-width: 480px){
-    .container_barra{
-        position:fixed;
-        box-shadow: 2px 2px gray;
-        width: 100em;
-        height: fit-content;
-        top: 0;
-        left: 0;
-        border: 2px solid blue;
-      }
-
-      #bienvenido{
-        position: relative;
-        top: -7.2em;
-        left: .05em;
-        color: white;
-        font-size:150% ;
-        z-index: 2;
-        width: 25%;
-        font-weight: 800;
-        visibility: hidden;
-    }
 
 
-
-  }
