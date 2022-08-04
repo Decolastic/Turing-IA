@@ -1,0 +1,1613 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,700;0,800;1,600&family=Roboto:wght@300;500&display=swap');
+body, html {
+    height:100%;
+}
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+    scroll-behavior:smooth ;
+    position: relative; 
+    max-width: 100%;
+    max-height: 100%;
+    font-family: 'Roboto', sans-serif;
+    
+      
+}
+
+
+    #section1{
+        position:relative;
+        height: 100%;
+        width: 100%;
+    }
+    #video{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        object-fit: cover;
+        filter: brightness(60%);
+        
+    }
+    .container_barra{
+        position:relative;
+        box-shadow: 2px 2px gray;
+        width: 100%;
+        height: 18%;
+        top: 0;
+        left: 0;
+        border: 2px solid black;
+      
+    }
+    .Turing300px{
+        position: absolute;
+        z-index: 2;
+        color: white;
+        top: 4rem;
+        left: 5.5rem;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav_barra{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .ul_barra{
+        
+        text-align: center;
+        display: flex;
+        z-index: 2;
+        width: 90%;
+        gap: 2;
+        list-style: none;
+        margin: 4%; 
+        font-size: small;
+        flex-grow: 999;
+        
+        font-size: .7rem;
+       
+    }
+    #TURING-IA{
+        display: none;
+       top: 5rem;
+       left: 6.5rem;
+        font-weight: 100rem;
+        font-size: larger;
+        
+          
+    }
+    .nav_barra>ul>li>a{
+        color: white;
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+        
+    
+    }
+    .nav_barra>ul>li>a:hover{
+        color:rgba(4, 0, 255, 20);
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+    
+    }
+    
+
+    .servicios>li>a,.tableau>li>a,.servicios,.tableau{
+        list-style: none;
+        color: white;
+        z-index: 50;    
+        transition: all 300ms ease;
+        font-size: .62rem;
+    }
+    
+    #bienvenido{
+        display: none;
+        position: relative;
+        bottom: 12em;
+        left: 2em;
+        color: white;
+        font-size:100% ;
+        z-index: 2;
+        width: 25%;
+        font-weight: 800;
+        
+    }
+    #bienvenido>h1{
+        font-size: 150%;
+    }
+    #bienvenido>h2{
+        font-size: 140%;
+        
+    }
+    
+    .servicios,.tableau{
+        visibility: hidden;
+        text-align: left;
+        }
+    .ul_barra>li:hover>.servicios,.ul_barra>li:hover>.tableau{
+        visibility: visible;
+        color: aqua;
+    }
+    .servicios>li>a:hover,.tableau>li>a:hover{
+        background-color: rgba(4, 0, 255, 0.5);
+        display: block;
+        transform: scale(1.1);
+    }
+    #container_iconos_contacto{
+  
+        position: relative;
+        width: 10.5em;
+        height: 4%;
+        top: .2em;
+        left: 80px;
+        z-index: 2;
+        ;
+    }
+    .iconos_contacto>li{
+        list-style: none;
+        display: inline-flex;
+    }
+    svg{
+        fill: black;
+    }
+    svg:hover{
+        fill: rgba(4, 0, 255, 0.8);
+        display: block;
+        transform: scale(1.8);
+    }
+    
+/*-------SECTION2-------------------*/
+#section22{
+    position: relative;
+    height:100%;
+    width: 100%;
+    
+}
+#section2{
+    width: 77%;
+    height: 21%;
+    bottom:43.5em;
+    border: 2px solid;
+    cursor: pointer;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background: #021691;
+    
+}
+#section2:hover{
+    width: 100%;
+    height: 22%;
+    color: white;
+    text-align: left; 
+    align-items: center;
+    transition: width 1s,height 1s;
+
+}
+.Informacion{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left; 
+    align-items: center;
+    transition: width 1s,height 1s;
+    
+    
+}
+
+.Informacion h1{
+    top: 1.2em;
+}
+.Informacion p{
+    top: 2em;
+    cursor: pointer;
+   
+}
+small{
+    text-decoration: overline;  
+}
+
+#container_video{
+    position: relative;
+    bottom: 43.5em;
+    width: 20rem;
+    height: 15em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 2px solid;
+    background-color: #021691;
+    object-fit: cover;
+
+}
+
+#video1{
+    height: 100%;
+    bottom: .1em;
+    object-fit: cover;
+    filter: brightness(55%);
+    
+}
+.div_videos2{
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+#mas_info{
+    font-style: oblique;
+    font-weight: 400;
+    position: relative;
+    bottom: 58em;
+    width: 110%;
+    height: 1em;
+    left: .4em;
+    font-size: medium;
+    color: rgb(135, 60, 255);
+    
+   
+    
+}
+#mas_info:hover{
+    font-style: oblique;
+    font-weight: 300;
+    position: relative;
+    bottom: 49em;
+    width: 110%;
+    height: 1em;
+    left: .9em;
+    color: orange;
+    transform: scale(1.08);
+   
+    
+}
+
+#mas_info>h5{
+    
+    font-weight: 900;
+    text-align: left;
+    color:rgb(135, 60, 255);
+    text-transform: uppercase;
+    font-style: italic;
+    
+
+}
+.mas_info>p{
+    font-style: italic;
+}
+
+/*----------------SECCION 3-----------------------*/
+        
+    
+    .section3{
+        position: relative;
+        width: 100%;
+        height: 100em;
+        bottom: 55em;
+    }
+    .section3 h3{
+        text-align: center;
+        color: rgb(57, 57, 245);
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    .tecnology-card{
+        width: 7em;
+        height: fit-content;
+        position: relative;
+        left:5.4em;
+        filter: grayscale(1);
+       
+    }
+    .tecnology-card:hover{
+        width: 10em;
+        height: fit-content;
+        position: relative;
+        left:4.5em;
+        filter: grayscale(0);
+       
+    }
+    .container_carrusel{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        bottom: 82em;
+        border: 2px solid;
+    }
+    .section4{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        bottom: 82rem;
+        border: 2px solid red;
+    }
+    .section4 h1,h3,h4{
+        color: #021691;
+        font-weight: 300;
+       text-align: center;
+    }
+    #container_contacta{
+        background-color: rgb(189, 185, 250);
+        cursor: pointer;
+    }
+    #container_contacta:hover h3{
+        background-color: rgb(122, 113, 238);
+        color: white;
+        transform: scale(1.2);
+        cursor: pointer;
+
+    }
+    .section4 input{
+        width: 100%;
+        height: 4em;
+    }
+    .art_formulario{
+        margin: 4%;
+        box-shadow: 2px 2px 2px 2px gray;
+        
+    }
+    .art_formulario button{
+        background-color: #021691;
+        color: white;
+        width: 100%;
+        height: 4em;
+        cursor: pointer;
+    }
+
+    iframe{ 
+        margin: 3%;
+        width: 17em;
+      height:18em;
+
+      }
+      
+.empresa_info{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    bottom: 81.5rem;
+    border: 2px solid yellow;
+   
+}
+.empresa_info h3{
+    background-color: rgba(4, 0, 255, 0.5);
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 4%;
+}   
+.empresa_info svg{
+    width: 50em;
+    height: 2em;
+    
+}
+.empresa_info h3:hover{
+    background-color: #021691;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 4%;
+}  
+#final .carta_footer>ul>li{
+    list-style: none;
+   
+    
+}
+#final .carta_footer>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#final .carta_footer>ul>li>a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+#iconos{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+#iconos li:hover>a>img{
+    transform: scale(1.5);
+    
+}
+
+
+
+
+
+      
+@media (min-width: 482px) and (max-width: 767px){
+  
+    #section1{
+        position:relative;
+        height: 100%;
+        width: 100%;
+    }
+    #video{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        object-fit: cover;
+        filter: brightness(60%);
+        
+    }
+    .container_barra{
+        position:relative;
+        box-shadow: 2px 2px gray;
+        width: 100%;
+        height: 20%;
+        top: 0;
+        left: 0;
+        border: 2px solid black;
+      
+    }
+    .Turing300px{
+        display: none;
+        position: absolute;
+        z-index: 2;
+        color: white;
+        top: 4rem;
+        left: 5.5rem;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav_barra{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .ul_barra{
+        justify-content: space-around;
+        text-align: center;
+        display: flex;
+        z-index: 2;
+        width: 100%;
+        gap: 2;
+        list-style: none;
+        margin: 4%; 
+        font-size: small;
+        flex-grow: 999;
+        
+        font-size: .7rem;
+       
+    }
+    #TURING-IA{
+        
+       
+       right: 1rem;
+        font-weight: 100rem;
+        font-size: larger;
+        
+          
+    }
+    .nav_barra>ul>li>a{
+        color: white;
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+        
+    
+    }
+    .nav_barra>ul>li>a:hover{
+        color:rgba(4, 0, 255, 20);
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+    
+    }
+    
+
+    .servicios>li>a,.tableau>li>a,.servicios,.tableau{
+        list-style: none;
+        color: white;
+        z-index: 50;    
+        transition: all 300ms ease;
+        font-size: .62rem;
+    }
+    
+    #bienvenido{
+        
+        position: relative;
+        bottom: 8em;
+        left: 1em;
+        color: white;
+        font-size:100% ;
+        z-index: 2;
+        width: 30%;
+        font-weight: 800;
+        
+    }
+    #bienvenido>h1{
+        font-size: 150%;
+    }
+    #bienvenido>h2{
+        font-size: 140%;
+        
+    }
+    
+    .servicios,.tableau{
+        visibility: hidden;
+        text-align: left;
+        }
+    .ul_barra>li:hover>.servicios,.ul_barra>li:hover>.tableau{
+        visibility: visible;
+        color: aqua;
+    }
+    .servicios>li>a:hover,.tableau>li>a:hover{
+        background-color: rgba(4, 0, 255, 0.5);
+        display: block;
+        transform: scale(1.1);
+    }
+    #container_iconos_contacto{
+  
+        position: relative;
+        width: 4.5em;
+        height: 4%;
+        bottom: 15.5em;
+        left: 26.8em;
+        z-index: 2;
+        ;
+    }
+    .iconos_contacto>li{
+        list-style: none;
+        display: inline-flex;
+    }
+    svg{
+        fill: white;
+    }
+    svg:hover{
+        fill: rgba(4, 0, 255, 0.8);
+        display: block;
+        transform: scale(1.8);
+    }
+    
+/*-------SECTION2-------------------*/
+#section22{
+    position: relative;
+    height:100%;
+    width: 100%;
+    
+}
+#section2{
+    width: 80%;
+    height: 18%;
+    bottom:37.5em;
+    border: 2px solid;
+    cursor: pointer;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background: #021691;
+    
+}
+#section2:hover{
+    width: 100%;
+    height: 22%;
+    color: white;
+    text-align: left; 
+    align-items: center;
+    transition: width 1s,height 1s;
+
+}
+.Informacion{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left; 
+    align-items: center;
+    transition: width 1s,height 1s;
+    
+    
+}
+
+.Informacion h1{
+    top: 1.2em;
+}
+.Informacion p{
+    top: 2em;
+    cursor: pointer;
+   
+}
+small{
+    text-decoration: overline;  
+}
+
+#container_video{
+    position: relative;
+    bottom: 34.5em;
+    width: 100%;
+    height: 15em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 2px solid;
+    background-color: #021691;
+    object-fit: cover;
+
+}
+
+#video1{
+    height: 100%;
+    bottom: .1em;
+    object-fit: cover;
+    filter: brightness(55%);
+    
+}
+.div_videos2{
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+#mas_info{
+    font-style: oblique;
+    font-weight: 400;
+    position: relative;
+    bottom: 49em;
+    width: 80%;
+    height: 1em;
+    left: 5em;
+    font-size: medium;
+    color: orange;
+    
+   
+    
+}
+#mas_info:hover{
+    font-style: oblique;
+    font-weight: 300;
+    position: relative;
+    bottom: 49em;
+    width: 110%;
+    height: 1em;
+    left: .9em;
+    color: orange;
+    transform: scale(1.08);
+   
+    
+}
+
+#mas_info>h5{
+    
+    font-weight: 900;
+    text-align: left;
+    color:orange;
+    left: 3em;
+    text-transform: uppercase;
+    font-style: italic;
+    
+
+}
+.mas_info>p{
+    font-style: italic;
+}
+
+/*----------------SECCION 3-----------------------*/
+        
+    
+    .section3{
+        position: relative;
+        width: 100%;
+        height: 100em;
+        bottom: 55em;
+    }
+    .section3 h3{
+        text-align: center;
+        color: rgb(57, 57, 245);
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    .tecnology-card{
+        width: 7em;
+        height: fit-content;
+        position: relative;
+        left:1.4em;
+        filter: grayscale(1);
+       
+    }
+    .tecnology-card:hover{
+        width: 10em;
+        height: fit-content;
+        position: relative;
+        left:4.5em;
+        filter: grayscale(0);
+       
+    }
+    .container_carrusel{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        bottom: 82em;
+        border: 2px solid;
+    }
+    .section4{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        bottom: 82rem;
+        border: 2px solid red;
+    }
+    .section4 h1,h3,h4{
+        color: #021691;
+        font-weight: 300;
+       text-align: center;
+    }
+    #container_contacta{
+        background-color: rgb(189, 185, 250);
+        cursor: pointer;
+    }
+    #container_contacta:hover h3{
+        background-color: rgb(122, 113, 238);
+        color: white;
+        transform: scale(1.2);
+        cursor: pointer;
+
+    }
+    .section4 input{
+        width: 100%;
+        height: 4em;
+    }
+    .art_formulario{
+        margin: 4%;
+        box-shadow: 2px 2px 2px 2px gray;
+        
+    }
+    .art_formulario button{
+        background-color: #021691;
+        color: white;
+        width: 100%;
+        height: 4em;
+        cursor: pointer;
+    }
+
+    iframe{ 
+        margin: 3%;
+        width: 17em;
+      height:18em;
+
+      }
+      
+.empresa_info{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    bottom: 81.5rem;
+    border: 2px solid yellow;
+   
+}
+.empresa_info h3{
+    background-color: rgba(4, 0, 255, 0.5);
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 4%;
+}   
+.empresa_info svg{
+    width: 50em;
+    height: 2em;
+    
+}
+.empresa_info h3:hover{
+    background-color: #021691;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 4%;
+}  
+.container_footer{
+    background-color: #021691;
+    position: relative;
+    bottom: 82em;
+    margin: 1%;
+    width:100%;
+    height: fit-content;
+}
+.container_footer h3,h5{
+    color: white;
+    text-align: center;
+}
+.container_footer h5{
+    font-weight: 200;
+}
+
+}
+  
+  
+@media (min-width: 768px) and (max-width: 1024px){
+   
+    #section1{
+        position:relative;
+        height: 100%;
+        width: 100%;
+    }
+    #video{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        object-fit: cover;
+        filter: brightness(60%);
+        
+    }
+    .container_barra{
+        position:relative;
+        box-shadow: 2px 2px gray;
+        width: 100%;
+        height: 28%;
+        top: 0;
+        left: 0;
+        border: 2px solid black;
+      
+    }
+    .Turing300px{
+        display: none;
+        position: absolute;
+        z-index: 2;
+        color: white;
+        top: 4rem;
+        left: 5.5rem;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav_barra{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .ul_barra{
+       
+        justify-content: space-around;
+        text-align: center;
+        display: flex;
+        z-index: 2;
+        width: 100%;
+        gap: 2;
+        list-style: none;
+        margin: 4%; 
+        flex-grow: 999;
+        
+        font-size: 1.2rem;
+       
+    }
+    #TURING-IA{
+       top: .1vh;
+       right:2vh;
+        font-weight: 100rem;
+        font-size: larger;
+        
+          
+    }
+    .nav_barra>ul>li>a{
+        color: white;
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+        justify-content: space-between;
+        
+        
+    
+    }
+    .nav_barra>ul>li>a:hover{
+        color:rgba(4, 0, 255, 20);
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+    
+    }
+    
+
+    .servicios>li>a,.tableau>li>a,.servicios,.tableau{
+        list-style: none;
+        color: white;
+        z-index: 50;    
+        transition: all 300ms ease;
+        font-size: .62rem;
+    }
+    
+    #bienvenido{
+        
+        position: relative;
+        bottom: 12em;
+        left: 2em;
+        color: white;
+        font-size:100% ;
+        z-index: 2;
+        width: 25%;
+        font-weight: 800;
+        
+    }
+    #bienvenido>h1{
+        font-size: 150%;
+    }
+    #bienvenido>h2{
+        font-size: 140%;
+        
+    }
+    
+    .servicios,.tableau{
+        visibility: hidden;
+        text-align: left;
+        }
+    .ul_barra>li:hover>.servicios,.ul_barra>li:hover>.tableau{
+        visibility: visible;
+        color: aqua;
+    }
+    .servicios>li>a:hover,.tableau>li>a:hover{
+        background-color: rgba(4, 0, 255, 0.5);
+        display: block;
+        transform: scale(1.1);
+    }
+    #container_iconos_contacto{
+  
+        position: relative;
+        width: 10.5em;
+        height: 4%;
+        bottom: 21em;
+        left: 41em;
+        z-index: 2;
+        ;
+    }
+    .iconos_contacto>li{
+        list-style: none;
+        display: inline-flex;
+    }
+    svg{
+        fill: white;
+    }
+    svg:hover{
+        fill: rgba(4, 0, 255, 0.8);
+        display: block;
+        transform: scale(1.8);
+    }
+    
+/*-------SECTION2-------------------*/
+#section22{
+    position: relative;
+    height:100%;
+    width: 100%;
+    
+}
+#section2{
+    width: 77%;
+    height: 21%;
+    bottom:34.5em;
+    border: 2px solid;
+    cursor: pointer;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background: #021691;
+    
+}
+#section2:hover{
+    width: 100%;
+    height: 22%;
+    color: white;
+    text-align: left; 
+    align-items: center;
+    transition: width 1s,height 1s;
+
+}
+.Informacion{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left; 
+    align-items: center;
+    transition: width 1s,height 1s;
+    
+    
+}
+
+.Informacion h1{
+    top: 1.2em;
+}
+.Informacion p{
+    top: 2em;
+    cursor: pointer;
+   
+}
+small{
+    text-decoration: overline;  
+}
+
+#container_video{
+    position: relative;
+    bottom: 34.5em;
+    width: 20rem;
+    height: 15em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 2px solid;
+    background-color: #021691;
+    object-fit: cover;
+
+}
+
+#video1{
+    height: 100%;
+    bottom: .1em;
+    object-fit: cover;
+    filter: brightness(55%);
+    
+}
+.div_videos2{
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+#mas_info{
+    font-style: oblique;
+    font-weight: 400;
+    position: relative;
+    bottom: 49em;
+    width: 110%;
+    height: 1em;
+    left: .4em;
+    font-size: medium;
+    color: rgb(135, 60, 255);
+    
+   
+    
+}
+#mas_info:hover{
+    font-style: oblique;
+    font-weight: 300;
+    position: relative;
+    bottom: 49em;
+    width: 110%;
+    height: 1em;
+    left: .9em;
+    color: orange;
+    transform: scale(1.08);
+   
+    
+}
+
+#mas_info>h5{
+    
+    font-weight: 900;
+    text-align: left;
+    color:rgb(135, 60, 255);
+    text-transform: uppercase;
+    font-style: italic;
+    
+
+}
+.mas_info>p{
+    font-style: italic;
+}
+
+/*----------------SECCION 3-----------------------*/
+        
+    
+    .section3{
+        position: relative;
+        width: 100%;
+        height: 100em;
+        bottom: 55em;
+    }
+    .section3 h3{
+        text-align: center;
+        color: rgb(57, 57, 245);
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    .tecnology-card{
+        width: 7em;
+        height: fit-content;
+        position: relative;
+        left:5.4em;
+        filter: grayscale(1);
+       
+    }
+    .tecnology-card:hover{
+        width: 10em;
+        height: fit-content;
+        position: relative;
+        left:4.5em;
+        filter: grayscale(0);
+       
+    }
+    .container_carrusel{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        bottom: 82em;
+        border: 2px solid;
+    }
+    .section4{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        bottom: 82rem;
+        border: 2px solid red;
+    }
+    .section4 h1,h3,h4{
+        color: #021691;
+        font-weight: 300;
+       text-align: center;
+    }
+    #container_contacta{
+        background-color: rgb(189, 185, 250);
+        cursor: pointer;
+    }
+    #container_contacta:hover h3{
+        background-color: rgb(122, 113, 238);
+        color: white;
+        transform: scale(1.2);
+        cursor: pointer;
+
+    }
+    .section4 input{
+        width: 100%;
+        height: 4em;
+    }
+    .art_formulario{
+        margin: 4%;
+        box-shadow: 2px 2px 2px 2px gray;
+        
+    }
+    .art_formulario button{
+        background-color: #021691;
+        color: white;
+        width: 100%;
+        height: 4em;
+        cursor: pointer;
+    }
+
+    iframe{ 
+        margin: 3%;
+        width: 17em;
+      height:18em;
+
+      }
+      
+.empresa_info{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    bottom: 81.5rem;
+    border: 2px solid yellow;
+   
+}
+.empresa_info h3{
+    background-color: rgba(4, 0, 255, 0.5);
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 4%;
+}   
+.empresa_info svg{
+    width: 50em;
+    height: 2em;
+    
+}
+.empresa_info h3:hover{
+    background-color: #021691;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 4%;
+}  
+.container_footer{
+    background-color: #021691;
+    position: relative;
+    bottom: 82em;
+    margin: 1%;
+    width:100%;
+    height: fit-content;
+}
+.container_footer h3,h5{
+    color: white;
+    text-align: center;
+}
+.container_footer h5{
+    font-weight: 200;
+}
+
+}
+
+  
+@media (min-width: 1025px) and (max-width: 1380px){
+   
+    #section1{
+        position:relative;
+        height: 100%;
+        width: 100%;
+    }
+    #video{
+        width: 100%;
+        position: absolute;
+        z-index: 1;
+        object-fit: cover;
+        filter: brightness(60%);
+        
+    }
+    .container_barra{
+        position:relative;
+        box-shadow: 2px 2px gray;
+        width: 100%;
+        height: 40%;
+        top: 0;
+        left: 0;
+        border: 2px solid black;
+      
+    }
+    .Turing300px{
+        display: none;
+        position: absolute;
+        z-index: 2;
+        color: white;
+        top: 4rem;
+        left: 5.5rem;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .nav_barra{
+        width: 100%;
+        height: 100%;
+        right: 7vh;
+        
+    }
+    .ul_barra{
+        
+        justify-content: space-around;
+        display: flex;
+        z-index: 2;
+        width: 100%;
+        list-style: none;
+        margin: 4%; 
+        flex-grow: 99;
+        font-size: 1.5rem;
+       
+    }
+    #TURING-IA{
+       
+       top: .01rem;
+       left: .001em;
+        font-weight: 100rem;
+        font-size: larger;
+        
+          
+    }
+    .nav_barra>ul>li>a{
+        color: white;
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+        
+    
+    }
+    .nav_barra>ul>li>a:hover{
+        color:rgba(4, 0, 255, 20);
+        font-size: larger;
+        font-weight: 800;
+        transition: all 300ms ease;
+    
+    }
+    
+
+    .servicios>li>a,.tableau>li>a,.servicios,.tableau{
+        list-style: none;
+        color: white;
+        z-index: 50;    
+        transition: all 300ms ease;
+        font-size: .62rem;
+    }
+    
+    #bienvenido{
+        
+        position: relative;
+        bottom: 12em;
+        left: 2em;
+        color: white;
+        font-size:100% ;
+        z-index: 2;
+        width: 25%;
+        font-weight: 800;
+        
+    }
+    #bienvenido>h1{
+        font-size: 150%;
+    }
+    #bienvenido>h2{
+        font-size: 140%;
+        
+    }
+    
+    .servicios,.tableau{
+        visibility: hidden;
+        text-align: left;
+        }
+    .ul_barra>li:hover>.servicios,.ul_barra>li:hover>.tableau{
+        visibility: visible;
+        color: aqua;
+    }
+    .servicios>li>a:hover,.tableau>li>a:hover{
+        background-color: rgba(4, 0, 255, 0.5);
+        display: block;
+        transform: scale(1.1);
+    }
+    #container_iconos_contacto{
+  
+        position: relative;
+        width: 10.5em;
+        height: 4%;
+        top: .2em;
+        left: 80px;
+        z-index: 2;
+        ;
+    }
+    .iconos_contacto>li{
+        list-style: none;
+        display: inline-flex;
+    }
+    svg{
+        fill: black;
+    }
+    svg:hover{
+        fill: rgba(4, 0, 255, 0.8);
+        display: block;
+        transform: scale(1.8);
+    }
+    
+/*-------SECTION2-------------------*/
+#section22{
+    position: relative;
+    height:100%;
+    width: 100%;
+    
+}
+#section2{
+    width: 77%;
+    height: 21%;
+    bottom:34.5em;
+    border: 2px solid;
+    cursor: pointer;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+    background: #021691;
+    
+}
+#section2:hover{
+    width: 100%;
+    height: 22%;
+    color: white;
+    text-align: left; 
+    align-items: center;
+    transition: width 1s,height 1s;
+
+}
+.Informacion{
+    width: 100%;
+    height: 100%;
+    color: white;
+    text-align: left; 
+    align-items: center;
+    transition: width 1s,height 1s;
+    
+    
+}
+
+.Informacion h1{
+    top: 1.2em;
+}
+.Informacion p{
+    top: 2em;
+    cursor: pointer;
+   
+}
+small{
+    text-decoration: overline;  
+}
+
+#container_video{
+    position: relative;
+    bottom: 34.5em;
+    width: 20rem;
+    height: 15em;
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    border: 2px solid;
+    background-color: #021691;
+    object-fit: cover;
+
+}
+
+#video1{
+    height: 100%;
+    bottom: .1em;
+    object-fit: cover;
+    filter: brightness(55%);
+    
+}
+.div_videos2{
+    top: 2em;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    
+    
+}
+
+#mas_info{
+    font-style: oblique;
+    font-weight: 400;
+    position: relative;
+    bottom: 49em;
+    width: 110%;
+    height: 1em;
+    left: .4em;
+    font-size: medium;
+    color: rgb(135, 60, 255);
+    
+   
+    
+}
+#mas_info:hover{
+    font-style: oblique;
+    font-weight: 300;
+    position: relative;
+    bottom: 49em;
+    width: 110%;
+    height: 1em;
+    left: .9em;
+    color: orange;
+    transform: scale(1.08);
+   
+    
+}
+
+#mas_info>h5{
+    
+    font-weight: 900;
+    text-align: left;
+    color:rgb(135, 60, 255);
+    text-transform: uppercase;
+    font-style: italic;
+    
+
+}
+.mas_info>p{
+    font-style: italic;
+}
+
+/*----------------SECCION 3-----------------------*/
+        
+    
+    .section3{
+        position: relative;
+        width: 100%;
+        height: 100em;
+        bottom: 55em;
+    }
+    .section3 h3{
+        text-align: center;
+        color: rgb(57, 57, 245);
+        font-weight: 300;
+        text-transform: uppercase;
+    }
+    
+    .tecnology-card{
+        width: 7em;
+        height: fit-content;
+        position: relative;
+        left:5.4em;
+        filter: grayscale(1);
+       
+    }
+    .tecnology-card:hover{
+        width: 10em;
+        height: fit-content;
+        position: relative;
+        left:4.5em;
+        filter: grayscale(0);
+       
+    }
+    .container_carrusel{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        bottom: 82em;
+        border: 2px solid;
+    }
+    .section4{
+        position: relative;
+        width: 100%;
+        height: 100%;
+        bottom: 82rem;
+        border: 2px solid red;
+    }
+    .section4 h1,h3,h4{
+        color: #021691;
+        font-weight: 300;
+       text-align: center;
+    }
+    #container_contacta{
+        background-color: rgb(189, 185, 250);
+        cursor: pointer;
+    }
+    #container_contacta:hover h3{
+        background-color: rgb(122, 113, 238);
+        color: white;
+        transform: scale(1.2);
+        cursor: pointer;
+
+    }
+    .section4 input{
+        width: 100%;
+        height: 4em;
+    }
+    .art_formulario{
+        margin: 4%;
+        box-shadow: 2px 2px 2px 2px gray;
+        
+    }
+    .art_formulario button{
+        background-color: #021691;
+        color: white;
+        width: 100%;
+        height: 4em;
+        cursor: pointer;
+    }
+
+    iframe{ 
+        margin: 3%;
+        width: 17em;
+      height:18em;
+
+      }
+      
+.empresa_info{
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    bottom: 81.5rem;
+    border: 2px solid yellow;
+   
+}
+.empresa_info h3{
+    background-color: rgba(4, 0, 255, 0.5);
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 4%;
+}   
+.empresa_info svg{
+    width: 50em;
+    height: 2em;
+    
+}
+.empresa_info h3:hover{
+    background-color: #021691;
+    color: white;
+    font-weight: 300;
+    cursor: pointer;
+    margin-bottom: 4%;
+}  
+.container_footer{
+    background-color: #021691;
+    position: relative;
+    bottom: 82em;
+    margin: 1%;
+    width:100%;
+    height: fit-content;
+}
+.container_footer h3,h5{
+    color: white;
+    text-align: center;
+}
+.container_footer h5{
+    font-weight: 200;
+}
+
+}

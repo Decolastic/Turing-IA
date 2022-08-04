@@ -1,0 +1,142 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{font-size: 2.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 1.25;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{ background-color:darkblue;}
+header .logo{
+     margin: 0;
+     padding: 25px;
+     font-weight: bold;
+     font-size: 1.6em;
+     
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+    padding-bottom: 25px;  
+}
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#hero{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://as01.epimg.net/meristation/imagenes/2017/01/23/noticia/1485151020_434568_1532100191_portada_normal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#section_img-texto{
+    text-align: justify;
+}
+.container_art{
+    text-align: justify;
+    padding: 200px 12px;
+}
+.container_img{
+    text-align: justify;
+justify-items: center;    
+}
+.container_elementos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #021691;
+    color: white;
+
+}
+.container_elementos h4{
+    font-weight: bold;
+
+}
+#final .carta_footer>ul>li{
+    list-style: none;
+   
+    
+}
+#final .carta_footer>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#final .carta_footer>ul>li>a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+#iconos{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+#iconos li:hover>a>img{
+    transform: scale(1.5);
+    
+}
+@media (min-width:720px){
+    header{
+        background: none;
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+       color: white;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 40px;
+    }
+    header a{
+        color: white;
+        display: flex;
+    }
+    #section_img-texto .container_art{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    #section_img-texto .container_texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-weight: 800;
+    }
+    #section_img-texto .container_img{
+        background-image:url(https://www.holisticdesignlab.com/wp-content/uploads/2021/12/imageprin.png);
+        background-size: cover;
+        background-position: center center;
+        height: 300px;
+        width: 400px;
+        
+    }
+   
+
+}

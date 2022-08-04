@@ -1,0 +1,215 @@
+*{box-sizing: border-box;}
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h1{font-size: 2.5em;}
+h2{font-size: 2.7em;}
+h3{font-size: 1.25;}
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+header{ background-color:#021691;}
+header .logo{
+     margin: 0;
+     padding: 25px;
+     font-weight: bold;
+     font-size: 1.6em;
+     
+}
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    display: flex;
+    flex-direction: column;  
+    text-align: center;
+    padding-bottom: 25px;  
+}
+header a{
+    display: none;
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+#hero{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    height: 90vh;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://www.altcon.com.mx/wp-content/uploads/2021/09/imagen-reducida-web-9-700x700.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#section_img-texto{
+    text-align: justify;
+}
+.container_art{
+    text-align: justify;
+    padding: 200px 12px;
+}
+.container_img{
+    text-align: justify;
+justify-items: center;    
+}
+#nuestros_cursos{
+    background-color:black ;
+    color: white;
+    text-align: center;
+    
+}
+#nuestros-cursos .container{
+    padding: 100px 0px;
+}
+#nuestros_cursos p{
+    display: none;
+}
+#nuestros_cursos h2{
+    margin-top: 0;
+}
+#nuestros_cursos .carta{
+    background-position:  center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+#nuestros_cursos .carta:hover{
+    transform: scale(1.1);
+    background-position:  center center;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 15px;
+}
+#nuestros_cursos .carta:hover p{display:block ;}
+.carta:first-child{
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://www.turing-ia.com/assets/img/c1.png);
+     background-repeat: no-repeat;
+}
+.carta:nth-child(2){
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://www.turing-ia.com/assets/img/c2.jpg);
+
+
+}
+.carta:nth-child(3){
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://www.turing-ia.com/assets/img/c3.jpg);
+
+}
+.carta:nth-child(4){
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://www.turing-ia.com/assets/img/pc1.jpg);
+
+}
+.carta:nth-child(5){
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://www.turing-ia.com/assets/img/vac.jpg);
+
+}
+.carta:nth-child(6){
+    background-image:linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),url(https://www.turing-ia.com/assets/img/ser1.jpg);
+
+}
+.container_elementos{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #021691;
+    color: white;
+
+}
+.container_elementos h4{
+    font-weight: bold;
+
+}
+#final .carta_footer>ul>li{
+    list-style: none;
+   
+    
+}
+#final .carta_footer>ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+#final .carta_footer>ul>li>a:hover{
+    text-decoration: none;
+    color: wheat;
+}
+#iconos{
+    display: flex;
+    flex-direction: row;
+   
+    
+}
+#iconos li:hover>a>img{
+    transform: scale(1.5);
+    
+}
+@media (min-width:720px){
+    header{
+        background: none;
+        position: fixed;
+        width: 100%;
+    }
+    header .container{
+       color: white;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    header nav{
+        
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 40px;
+    }
+    header a{
+        color: white;
+        display: flex;
+    }
+    #section_img-texto .container_art{
+        display: flex;
+        justify-content: space-evenly;
+
+    }
+    #section_img-texto .container_texto{
+        width: 50%;
+        max-width: 600px;
+        text-align: initial;
+        padding: 0px 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #section_img-texto .container_img{
+        background-image:url(https://www.turing-ia.com/assets/img/ser1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+        
+    }
+    
+    #nuestros_cursos .programas{
+        display: flex;
+        flex-direction: column;
+       
+
+    }
+    #nuestros_cursos p{
+        display:block ;
+
+    }
+    #nuestros_cursos .carta{
+        padding: 15px;
+       
+    }
+    #nuestros_cursos .carta:hover{
+       transform: scale(1.01);
+       
+    }
+
+}
